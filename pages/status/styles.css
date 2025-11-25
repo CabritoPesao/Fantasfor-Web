@@ -1,0 +1,62 @@
+.title {
+    text-align: center;
+    background:rgba(0,0,0,.50);
+    width: auto;
+    height: auto;
+    color: wheat;
+}
+
+.information {
+
+    background: rgba(0,0,0,.50);
+    color: tan;
+    width: auto;
+    height: auto;
+    text-align: center;
+    padding: 5px;
+    margin: 5;
+}
+
+.title2 {
+    align-content:center;
+    width: auto;
+    height: auto;
+}
+
+.table-info {
+  display: flex;
+  /* Permite que los elementos pasen a la siguiente línea si no caben */
+  flex-wrap: wrap;
+  /* Espacio entre los elementos de la cuadrícula */
+  gap: 20px;
+  /* Centra los elementos horizontalmente */
+  justify-content: center;
+}
+
+.item {
+    background: rgba(0,0,0,.80);
+  /* Define el ancho de cada elemento. Por ejemplo, 3 items por fila en un 100% de ancho */
+    height: auto;
+  /* Alinea la imagen y el texto verticalmente */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+    /* Añade un borde sólido de 1 píxel, de color gris claro */
+  border: 1px solid #ccc;
+  
+  /* Añade un poco de espacio interno para que el contenido no toque el borde */
+  padding: 5px; 
+  
+  /* Opcional: añade esquinas redondeadas */
+  border-radius: 8px; 
+  
+  /* Opcional: añade una ligera sombra para dar efecto de tarjeta */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+}
+
+.item img {
+  /* Asegura que las imágenes no sean demasiado grandes */
+  max-width: 100%;
+  height: auto;
+}
