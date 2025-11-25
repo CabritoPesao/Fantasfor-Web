@@ -1,0 +1,52 @@
+/* 1. El contenedor principal usa CSS Grid para la cuadrícula */
+        .menu-grid {
+          display: grid;
+          /* Crea columnas que se ajusten automáticamente, mínimo 100px de ancho */
+          grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+          gap: 15px; /* Espacio entre los ítems de la cuadrícula */
+          padding: 0;
+          margin: 20px auto; /* Centra el menú en la página */
+          max-width: 1000px; /* Ancho máximo del menú */
+        }
+
+        /* 2. Cada ítem individual (el enlace <a>) */
+        .menu-item {
+          background-color:  rgba(0,0,0,.50);
+          text-decoration: none; /* Elimina el subrayado */
+          color: #fff;
+          display: flex;
+          flex-direction: column; /* Apila verticalmente (icono encima del texto) */
+          align-items: center; /* Centra horizontalmente */
+          justify-content: center; /* Centra verticalmente */
+          text-align: center;
+          
+          /* Aplica el borde, padding y sombra */
+          border: 1px solid #ccc;
+          padding: 15px 10px;
+          border-radius: 8px;
+          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+          width: 100%; 
+          box-sizing: border-box; /* Importante para el cálculo del ancho */
+        }
+
+        /* 3. Estilo para las imágenes/iconos */
+        .menu-item img {
+          width: 60px; /* Tamaño de los iconos */
+          height: auto;
+          margin-bottom: 1px; /* Espacio entre el icono y el texto */
+        }
+
+        /* 4. Estilo para el texto */
+        .menu-item span {
+          font-size: 0.8em;
+          display: block;
+          margin-top: 5px;
+        }
+
+        /* Opcional: Efecto hover */
+        .menu-item:hover {
+          color: #00eaff;
+          background-color: #034454;
+          transform: translateY(-2px);
+          transition: all 0.3s ease;
+        }
