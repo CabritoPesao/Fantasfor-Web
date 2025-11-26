@@ -1,0 +1,29 @@
+name,class,description,weight
+Beast Bone Necklace,BP_ZB_XiangLian_2_c,slot,Materials,1.5/s,25,36,264,An exquisite necklace made of beast bone,0.08
+Beast Bone Ring,BP_ZB_JieZhi_2_c,slot,Materials,1.5/s,25,36,264,An exquisite ring made of beast bone,0.08
+Beast Hide Costume,BP_ZB_YiFu_2_c,slot,Materials,1.5/s,25,36,264,Costume made of beast hide,0.4
+Beast Hide Gloves,BP_ZB_ShouTao_2_c,slot,Materials,1.5/s,25,36,264,Gloves made of beast hide,0.15
+Beast Hide Pants,BP_ZB_KuZi_2_c,slot,Materials,1.5/s,25,36,264,Pants made of beast hide,0.4
+Beast Hide Shoes,BP_ZB_XieZi_2_c,slot,Materials,1.5/s,25,36,264,Shoes made of beast hide,0.3
+Bronze Costume,BP_ZB_YiFu_3_c,slot,Materials,1.5/s,25,36,264,Costume made of bronze,0.6
+Bronze Gloves,BP_ZB_ShouTao_3_c,slot,Materials,1.5/s,25,36,264,Gloves made of bronze,0.3
+Bronze Necklace,BP_ZB_XiangLian_3_c,slot,Materials,1.5/s,25,36,264,A necklace made of bronze,0.15
+Bronze Pants,BP_ZB_KuZi_3_c,slot,Materials,1.5/s,25,36,264,Pants carrying bronze,0.6
+Bronze Ring,BP_ZB_JieZhi_3_c,slot,Materials,1.5/s,25,36,264,A ring made of bronze,0.15
+Bronze Shoes,BP_ZB_XieZi_3_c,slot,Materials,1.5/s,25,36,264,Shoes made of bronze,0.45
+Iron Costume,BP_ZB_YiFu_4_c,slot,Materials,1.5/s,25,36,264,Costume made of iron,0.8
+Iron Gloves,BP_ZB_ShouTao_4_c,slot,Materials,1.5/s,25,36,264,Gloves made of iron,0.4
+Iron Necklace,BP_ZB_XiangLian_4_c,slot,Materials,1.5/s,25,36,264,A necklace made of iron,0.2
+Iron Pants,BP_ZB_KuZi_4_c,slot,Materials,1.5/s,25,36,264,Pants carrying iron,0.8
+Iron Ring,BP_ZB_JieZhi_4_c,slot,Materials,1.5/s,25,36,264,A ring made of iron,0.2
+Iron Shoes,BP_ZB_XieZi_4_c,slot,Materials,1.5/s,25,36,264,Shoes made of iron,0.6
+Steel Costume,BP_ZB_YiFu_5_c,slot,Materials,1.5/s,25,36,264,A costume made of steel,1
+Steel Gloves,BP_ZB_ShouTao_5_c,slot,Materials,1.5/s,25,36,264,A pair of gloves made of steel,0.5
+Steel Necklace,BP_ZB_XiangLian_5_c,slot,Materials,1.5/s,25,36,264,A necklace made of steel,0.25
+Steel Pants,BP_ZB_KuZi_5_c,slot,Materials,1.5/s,25,36,264,Pants carrying steel,1
+Steel Ring,BP_ZB_JieZhi_5_c,slot,Materials,1.5/s,25,36,264,A ring made of steel,0.25
+Steel Shoes,BP_ZB_XieZi_5_c,slot,Materials,1.5/s,25,36,264,A pair of shoes made of steel,0.75
+Linen Costume,BP_ZB_YiFu_1_c,slot,Materials,1.5/s,25,36,264,Costume made of linen,0.2
+Linen Gloves,BP_ZB_ShouTao_1_c,slot,Materials,1.5/s,25,36,264,Gloves made of linen,0.1
+Linen Pants,BP_ZB_KuZi_1_c,slot,Materials,1.5/s,25,36,264,Pants made of linen,0.2
+Linen Shoes,BP_ZB_XieZi_1_c,slot,Materials,1.5/s,25,36,264,Shoes made of linen,0.15

@@ -1,95 +1,261 @@
-:root{
-    --my-color-0:#E7CAAA;
-    --my-color-1:#E9D3AB;
-    --my-color-2:#EBDCAD;
-    --my-color-3:#ECE4AF;
-    --my-color-4:#EEECB0;
-    --my-color-5:#DFEDB0;
-    --my-color-6:#000000;
-    --text-light:#ffffff;
-    --title-bg:rgba(0,0,0,.25)
+
+    /* Reset básico para asegurar consistencia */
+    * {
+
+        box-sizing: border-box;
+    }
+
+    body {
+        background-image: url(images/bg9.jpg);
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+
+    }
+    .search-card {
+        margin: 0px 15px;
+      background: rgba(255,255,255,0.02);
+      backdrop-filter: blur(6px);
+      padding: 12px;
+      border-radius: 12px;
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      width: 100%;
+      max-width: 720px;
+    }
+
+    .search-input-wrap {
+        background-color:rgba(0,0,0,.50);
+        border-radius: 15px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      flex: 1;
+    }
+
+    .search-icon {
+        color: aliceblue;
+      width: 40px;
+      height: 40px;
+      display: grid;
+      place-items: center;
+      background: rgba(255,255,255,0.02);
+      border-radius: 10px;
+    }
+
+    .search-input {
+      flex: 1;
+      background: transparent;
+      border: 0;
+      outline: 0;
+      color: #e6eef6;
+      font-size: 16px;
+      padding: 10px 8px;
+    }
+
+    .search-input::placeholder {
+      color: var(--muted);
+    }
+
+    .clear-btn {
+        margin: 0px 15px;
+      border: 0;
+      background: transparent;
+      color: #fff;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    .btn-search {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 14px;
+      border-radius: 10px;
+      border: 1px solid rgba(255,255,255,0.06);
+      background-color: rgb(173, 143, 107);
+      color: #042f33;
+      font-weight: 600;
+      cursor: pointer;
+    }
+
+    .btn-search:active {
+      transform: translateY(1px);
+    }
+                        /* --- 1. Contenedor Principal Fijo (Header/Topbar) --- */
+    .topbar {
+        display: flex; 
+        align-items: center; /* Centra verticalmente logo y menú */
+        justify-content: flex-start; /* Alinea a la izquierda */
+        background-color: rgba(0,0,0,0.2);
+        position: fixed; /* Fija la barra arriba */
+        top: 0;
+        left: 0;
+        width: 100%; 
+        z-index: 10000; /* Siempre visible por encima de todo */
+        padding: 5px ; 
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+        /* --- 2. Estilo del Logo --- */
+    .topbar img {
+
+        padding: 5px;
+        align-content: center;
+        width: 80px;
+        height: 80px; /* Tamaño del logo */
+        margin-right: 20px; /* Espacio entre logo y menú */
+        margin-left: 20px;
+    }
+
+    .menu-dropdown {
+        border-radius: 15px;
+        background-color: rgb(173, 143, 107);
+    }
+
+    .menu-dropdown > ul { /* CLAVE: Solo el UL de nivel superior es flex horizontal */
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex; 
+    }
+
+    .menu-dropdown li {
+        position: relative; /* Padre para posicionar el submenú absoluto */
+        margin: 0 5px; 
+    }
+
+    .menu-dropdown a {
+        display: block;
+        padding: 10px 15px;
+        text-decoration: none;
+        background-color: transparent; 
+        color: #292929; /* Texto blanco */
+        border-radius: 4px;
+        white-space: nowrap; 
+    }
+
+    .menu-dropdown a:hover {
+        background-color: #555; 
+        color: aliceblue;
+    }
+
+        /* --- 5. Estilos del Submenú (Oculto por defecto) --- */
+
+    .submenu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        background-color: rgb(173, 143, 107);
+        box-shadow: 0 4px 8px rgba(0,0,0,1);
+        border-radius: 4px;
+        z-index: 10000;
+        list-style: none;
+        margin: 0;
+        padding: 0;          /* eliminar padding del contenedor */
+        flex-direction: column;
+        min-width: 180px;
+    }
+
+    .submenu a {
+        display: block;       /* ocupa todo el ancho */
+        width: 100%;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        color: #333;
+        background-color: rgb(173, 143, 107);
+        text-decoration: none;
+    }
+
+    .submenu a:hover {
+        background-color: rgba(66, 65, 65, 0.65);
+        color: rgb(198, 198, 198);
+            border: 1px solid rgba(204, 204, 204, 0.26);
+    }
+
+
+        /* --- 6. Lógica de Despliegue (Hover CSS) --- */
+
+        /* Cuando pasas el mouse sobre el <li> padre, muestra su <ul> hijo (.submenu) */
+    .has-submenu:hover > .submenu {
+        display: flex;
+    }
+
+                                /* --- 2. Contenedor Principal (Layout de Cuadrícula) --- */
+.content {
+                /* Empuja el contenido hacia abajo para que no quede detrás de la barra superior */
+                margin-top: 70px; 
+                padding: 15px; 
+
+                display: grid;
+                /* CLAVE: 2 columnas, la primera fija (200px), la segunda flexible (1fr) */
+                grid-template-columns: 30% 1fr; 
+                /* CLAVE: 3 filas, la del medio flexible (1fr) */
+                grid-template-rows: auto 1fr auto;
+                gap: 15px; /* Espacio entre los bloques */
+
+                /* Ocupa el resto del alto de la pantalla */
+                min-height: calc(100vh - 70px); 
+            }
+
+/* ===========================
+   LAYOUT GLOBAL (IFRAME)
+=========================== */
+
+#content {
+    flex: 1 1 auto;
+    display: flex;
+    overflow: hidden;
+    margin-top: 80px; /* alto de la barra superior */
 }
-.My-Color-0{
-    color:var(--my-color-0)
+
+#contentFrame {
+    width: 100%;
+    height: 100%;
+    border: none;
 }
-.My-Color-1{
-    color:var(--my-color-1)
-}
-.My-Color-2{
-    color:var(--my-color-2)
-}
-.My-Color-3{
-    color:var(--my-color-3)
-}
-.My-Color-4{
-    color:var(--my-color-4)
-}
-.My-Color-5{
-    color:var(--my-color-5)
-}
-body{
-    margin:0;
-    font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif;
-    color:#111;
-    background-image:url('images/bg_main.jpeg');
-    background-size:cover;
-    background-position:center;
-    background-repeat:no-repeat;
-    background-attachment:fixed
-}
-.topbar{
-    position:sticky;
-    top:0;
-    color:var(--text-light);
-    z-index:1000;
-    border-bottom:1px solid var(--my-color-2);
-    display:flex;
-    flex-direction:column;
-    align-items:center
-}
-.site-title{
-    margin:10px;
-    padding:0.5rem 1rem;
-    font-size:2.7rem;
-    line-height:1.2;
-    text-shadow:0 1px 2px rgba(0,0,0,.4);
-    text-align:center;
-    background:var(--title-bg);
-    border-radius:12px;
-    margin-bottom:.75rem
-}
-.menu{
-    background:linear-gradient(90deg,var(--my-color-0),var(--my-color-5));
-    display:flex;
-    flex-wrap:wrap;
-    gap:.5rem;
-    align-items:center;
-    justify-content:center;
-    padding:.5rem 1rem
-}
-.menu a{
-    color:var(--my-color-6);
-    text-decoration:none;
-    padding:.5rem .75rem;
-    border-radius:.375rem;
-    transition:color .2s;
-    text-shadow:0 1px 2px rgba(0,0,0,.4)
-}
-.menu a:hover{
-    color:#f0f0f0
-}
-.menu a.active{
-    color:#2b2828;
-    border-bottom:2px solid #21dcff
-}
-.content{
-    min-height:calc(100vh - 80px);
-    display:flex;
-    justify-content:center
-}
-#contentFrame{
-    width:100%;
-    height:100%;
-    border:0;
-    background:transparent
-}
+            /* --- 3. Estilos Visuales de los Bloques (Como en tu imagen) --- */
+.section-bottom {
+                /*border: 2px solid #333; /* Borde oscuro y grueso */
+                padding: 15px;
+                display: flex; /* Para centrar el texto dentro del bloque */
+                align-items: center;
+                font-weight: bold;
+                color: #333;
+                text-transform: uppercase;
+            }
+
+    .section-bottom {
+      /* Ocupa ambas columnas de la fila inferior (el pie) */
+      grid-column: 1 / span 2; 
+      position: fixed;      /* lo fija en la pantalla */
+      bottom: 0;            /* al fondo */
+      left: 0;              /* alineado al inicio */
+      width: 100%;          /* que ocupe todo el ancho */
+      display: flex;
+      justify-content: center; /* centra horizontalmente */
+      gap: 20px;            /* separación entre <p> */
+      background-color: #1b1b1b;
+      color: #c7d5e0;
+      padding: 12px 10px;
+      font-size: 10px;
+      border-top: 1px solid #2d2d2d;
+      z-index: 999;         /* para que esté por encima de otros elementos */
+        height: 2%;
+    }
+
+    .section-bottom a {
+      color: #66c0f4;
+      text-decoration: none;
+    }
+
+    .section-bottom a:hover {
+      text-decoration: underline;
+    }
+
+    .section-bottom p {
+      margin: 0;
+      display: inline-block;
+    }

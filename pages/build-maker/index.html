@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Build Maker</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<div class="build-container">
+
+<!-- PANEL IZQUIERDO -->
+<div class="panel left-panel">
+
+    <div class="left-columns">
+
+        <!-- COLUMNA 1: Título + Buscador + Filtros -->
+        <div class="left-col controls-col">
+            <!-- DIV 1: Título -->
+            <div class="lp-section title-box">
+                <h2>Select or drag and drop an item to equip it.</h2>
+            </div>
+
+            <!-- DIV 2: Filtros -->
+            <div class="lp-section filter-box">
+               <div class="filter-count">
+                    <span id="filterCount">0</span> Filtered Items
+                </div>
+                <label><input type="checkbox" value="Tribe_Claw"><span>Tribe Claw</span></label>
+                <label><input type="checkbox" value="Tribe_Flint"><span>Tribe Flint</span></label>
+                <label><input type="checkbox" value="Tribe_Fang"><span>Tribe Fang</span></label>
+                <label><input type="checkbox" value="Special"><span>Special</span></label>
+                <label><input type="checkbox" value="Boss"><span>Boss</span></label>
+                <label><input type="checkbox" value="Materials"><span>Materials</span></label>  
+                <label><input type="checkbox" value="Tribe_Claw"><span>Costume</span></label>
+                <label><input type="checkbox" value="Tribe_Flint"><span>Gloves</span></label>
+                <label><input type="checkbox" value="Tribe_Fang"><span>Pants</span></label>
+                <label><input type="checkbox" value="Special"><span>Shoes</span></label>
+                <label><input type="checkbox" value="Boss"><span>Necklare</span></label>
+                <label><input type="checkbox" value="Materials"><span>Ring</span></label>
+                <label><input type="checkbox" value="Tribe_Claw"><span>Modules</span></label>
+                <label><input type="checkbox" value="Tribe_Flint"><span>Meats</span></label>
+                <label><input type="checkbox" value="Tribe_Fang"><span>Fruit & Vegetables</span></label>
+                <label><input type="checkbox" value="Special"><span>Staple Food</span></label>
+                <label><input type="checkbox" value="Boss"><span>Beverages</span></label>
+                <label><input type="checkbox" value="Materials"><span>Recreationals</span></label> 
+                <label><input type="checkbox" value="Boss"><span>Masks</span></label>
+                <label><input type="checkbox" value="Materials"><span>Others</span></label>        
+                
+            </div>
+        </div>
+
+        <!-- COLUMNA 2: Lista de ítems -->
+        <div class="left-col list-col">
+           <!-- Buscador -->
+    <div class="lp-section search-box">
+      <input type="text" id="itemSearch" placeholder="Search Item...">
+      <button id="searchBtn">Search</button>
+    </div>
+            <div class="lp-section item-list" id="itemList">
+                <!-- Aquí se inyectarán los items del CSV -->
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+
+<!-- PANEL CENTRAL -->
+<div class="panel center-panel">
+    <div class="center-inner">
+        <!-- COLUMNA MODULOS -->
+        <div class="equip-column module-equip">
+            <div class="equip-row">
+                <div class="slot" data-item="module">
+                    <div class="slot-name">Module 1</div>
+                </div>
+            </div>
+            <div class="equip-row">
+                <div class="slot" data-item="module">
+                    <div class="slot-name">Module 2</div>
+                </div>
+            </div>
+            <div class="equip-row">
+                <div class="slot" data-item="module">
+                    <div class="slot-name">Module 3</div>
+                </div>
+            </div>
+            <div class="equip-row">
+                <div class="slot" data-item="module">
+                    <div class="slot-name">Module 4</div>
+                </div>
+            </div>
+            <div class="equip-row">
+                <div class="slot" data-item="module">
+                    <div class="slot-name">Module 5</div>
+                </div>
+            </div>
+            <div class="equip-row">
+                <div class="slot" data-item="module">
+                    <div class="slot-name">Module 6</div>
+                </div>
+            </div>
+            <div class="equip-row">
+                <div class="slot" data-item="module">
+                    <div class="slot-name">Module 7</div>
+                </div>
+            </div>
+            <div class="equip-row">
+                <div class="slot" data-item="module">
+                    <div class="slot-name">Module 8</div>
+                </div>
+            </div>
+            <div class="equip-row">
+                <div class="slot" data-item="module">
+                    <div class="slot-name">Module 9</div>
+                </div>
+            </div>
+            <div class="equip-row">
+                <div class="slot" data-item="module">
+                    <div class="slot-name">Module 10</div>
+                </div>
+            </div>
+            <div class="equip-row">
+                <div class="slot" data-item="module">
+                    <div class="slot-name">Module 11</div>
+                </div>
+            </div>
+            <div class="equip-row">
+                <div class="slot" data-item="module">
+                    <div class="slot-name">Module 12</div>
+                </div>
+            </div>
+            <div class="equip-row">
+                <div class="slot" data-item="module">
+                    <div class="slot-name">Module 13</div>
+                </div>
+            </div>
+            <div class="equip-row">
+                <div class="slot" data-item="module">
+                    <div class="slot-name">Module 14</div>
+                </div>
+            </div>
+        </div>
+        <!-- COLUMNA IZQUIERDA -->
+        <div class="equip-column left-equip">
+            <div class="equip-row">
+                <div class="slot" data-item="costume">
+                    <div class="slot-name">Costume</div>
+                </div>
+            </div>
+            <div class="equip-row">
+                <div class="slot" data-item="pants">
+                    <div class="slot-name">Pants</div>
+                </div>
+            </div>
+            <div class="equip-row">
+                <div class="slot" data-item="gloves">
+                    <div class="slot-name">Gloves</div>
+                </div>
+            </div>
+            <div class="equip-row">
+                <div class="slot" data-item="shoes">
+                    <div class="slot-name">Shoes</div>
+                </div>
+            </div>
+            <div class="equip-row">
+                <div class="slot" data-item="ring">
+                    <div class="slot-name">Ring</div>
+                </div>
+            </div>
+            <div class="equip-row">
+                <div class="slot" data-item="necklare">
+                    <div class="slot-name">Necklare</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- COLUMNA CENTRAL (DIVIDIDA EN DOS FILAS) -->
+        <div class="center-column">
+            <!-- FILA SUPERIOR: 3 SLOTS -->
+            <div class="top-slots">
+                <div class="slot" data-item="mask">
+                    <div class="slot-name">Mask</div>
+                </div>
+                <div class="slot" data-item="extra1">
+                    <div class="slot-name">Extra 1</div>
+                </div>
+                <div class="slot" data-item="extra2">
+                    <div class="slot-name">Extra 2</div>
+                </div>
+            </div>
+            <!-- FILA INFERIOR: NPC -->
+            <div class="character-display">
+                <img src="../../npc-ui-bg.png" alt="character">
+            </div>
+        </div>
+
+        <!-- COLUMNA DERECHA -->
+        <div class="equip-column right-equip">
+            <div class="equip-row">
+                <div class="slot" data-item="meat">
+                    <div class="slot-name">Meat</div>
+                </div>
+            </div>
+            <div class="equip-row">
+                <div class="slot" data-item="staple-food">
+                    <div class="slot-name">Staple Food</div>
+                </div>
+            </div>
+            <div class="equip-row">
+                <div class="slot" data-item="fruits-vegetables">
+                    <div class="slot-name">Fruits & Vegetables</div>
+                </div>
+            </div>
+            <div class="equip-row">
+                <div class="slot" data-item="beverage">
+                    <div class="slot-name">Beverage</div>
+                </div>
+            </div>
+            <div class="equip-row">
+                <div class="slot" data-item="recreational">
+                    <div class="slot-name">Recreational</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+    <!-- PANEL DERECHO -->
+    <div class="panel right-panel">
+        <!-- resultado de estadisticas lado derecho -->
+    </div>
+
+</div>
+    <!-- Agregas esta nueva línea para tu archivo buildmaker.js -->
+    <script src="js/buildmaker.js"></script>
+</body>
+</html>
