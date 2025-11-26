@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Build Maker</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<div class="build-container">
+
+    <!-- PANEL CENTRAL -->
+    <div class="panel center-panel">
+        <div class="center-inner">
+
+            <!-- COLUMNA IZQUIERDA (Armaduras/Armas) -->
+            <div class="equip-column left-equip">
+                <div class="equip-row"><div class="slot" data-item="costume"><div class="slot-name">Costume</div></div></div>
+                <div class="equip-row"><div class="slot" data-item="pants"><div class="slot-name">Pants</div></div></div>
+                <div class="equip-row"><div class="slot" data-item="gloves"><div class="slot-name">Gloves</div></div></div>
+                <div class="equip-row"><div class="slot" data-item="shoes"><div class="slot-name">Shoes</div></div></div>
+                <div class="equip-row"><div class="slot" data-item="ring"><div class="slot-name">Ring</div></div></div>
+                <div class="equip-row"><div class="slot" data-item="necklare"><div class="slot-name">Necklare</div></div></div>
+            </div>
+
+            <!-- COLUMNA CENTRAL (Personaje) -->
+            <div class="center-column">
+                <div class="character-display">
+                    <img src="../../npc-ui-bg.png" alt="character">
+                </div>
+            </div>
+
+            <!-- COLUMNA DERECHA (Máscara + Comida) -->
+            <div class="equip-column right-equip">
+                <div class="equip-row"><div class="slot" data-item="mask"><div class="slot-name">Mask</div></div></div>
+                <div class="equip-row"><div class="slot" data-item="meat"><div class="slot-name">Meat</div></div></div>
+                <div class="equip-row"><div class="slot" data-item="staple-food"><div class="slot-name">Staple Food</div></div></div>
+                <div class="equip-row"><div class="slot" data-item="fruits-vegetables"><div class="slot-name">Fruits & Vegetables</div></div></div>
+                <div class="equip-row"><div class="slot" data-item="beverage"><div class="slot-name">Beverage</div></div></div>
+                <div class="equip-row"><div class="slot" data-item="recreational"><div class="slot-name">Recreational</div></div></div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- PANEL DERECHO (Calculadora) -->
+    <div class="panel right-panel">
+        <h2 style="text-align:center; margin-bottom:20px;">Calculated Attributes</h2>
+
+        <table id="attrTable" style="width:100%; border-collapse: collapse; text-align:center;">
+            <thead>
+                <tr>
+                    <th>-</th>
+                    <th>Attribute Name</th>
+                    <th>Editable Text</th>
+                    <th>Calculation Result</th>
+                    <th>Slots Sum</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Filas cargadas desde attr_calculator.csv -->
+            </tbody>
+        </table>
+
+    </div>
+
+</div>
+
+<script src="js/buildmaker.js"></script>
+</body>
+</html>

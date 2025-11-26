@@ -1,10 +1,64 @@
-const links=document.querySelectorAll('.menu a');
-const frame=document.getElementById('contentFrame');
-const header=document.querySelector('.topbar');
-const pathMap={Home:'home',plantation:'plantation',talents:'talentos','armor-sets':'set-de-armadura',maps:'mapas',masks:'mascaras','build-maker':'build-maker','armor-sets-lacaios':'conju-armaduras',console:'console',status:'status',leather:'couros',confort:'conforto',foods:'comidas',stack:'stack',boss:'boss'};
-function setActive(el){links.forEach(l=>l.classList.remove('active'));el.classList.add('active')}
-function resizeFrame(){const h=header.offsetHeight;frame.style.height=`${window.innerHeight - h}px`;}
-links.forEach(link=>{link.addEventListener('click',e=>{e.preventDefault();const page=link.getAttribute('data-page');const dir=pathMap[page]??page;frame.src=`pages/${dir}/index.html`;setActive(link)})});
-window.addEventListener('resize',resizeFrame);
+const links = document.querySelectorAll('.menu-dropdown a[data-page]');
+const frame = document.getElementById('contentFrame');
+const header = document.querySelector('.topbar');
+
+const pathMap = {
+    comfort: "comfort",
+    boss: "boss",
+    leather: "leather",
+    food: "food",
+    plantation: "plantation",
+    status: "status",
+    "weapon-mastery": "weapon-mastery",
+    "build-maker": "build-maker",
+    "stack-calculator": "stack-calculator",
+    normal: "normal",
+    tribe: "tribe",
+    origin: "origin",
+    title: "title",
+    "videos-channel": "videos-channel"
+};
+
+function setActive(el) {
+    links.forEach(l => l.classList.remove('active'));
+    el.classList.add('active');
+}
+
+function resizeFrame() {
+    const h = header.offsetHeight;
+    frame.style.height = `${window.innerHeight - h}px`;
+}
+
+links.forEach(link => {
+    link.addEventListener('click', e => {
+        e.preventDefault();
+        const page = link.dataset.page;
+
+        if (page === "home") {
+            frame.src = "home.html"; // Home desde la raíz
+        } else {
+            const dir = pathMap[page];
+            if (dir) frame.src = `pages/${dir}/index.html`;
+        }
+
+        setActive(link);
+    });
+});
+
+window.addEventListener('resize', resizeFrame);
 resizeFrame();
-setActive(document.querySelector('.menu a[data-page="Home"]'))
+
+// Activar Home por defecto
+const homeLink = document.querySelector('[data-page="home"]');
+setActive(homeLink);
+frame.src = "home.html";
+
+const logo = document.getElementById('logo-home');
+logo.addEventListener('click', () => {
+    // Simula clic en el enlace Home
+    const homeLink = document.querySelector('[data-page="home"]');
+    if (homeLink) {
+        homeLink.click();
+    }
+});
+

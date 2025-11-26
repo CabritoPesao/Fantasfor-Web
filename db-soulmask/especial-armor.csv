@@ -1,0 +1,19 @@
+name,class,description,weight
+Ancient Gloves,BP_ZB_ShouTao_YiJi_1_c,slot,Special,1.5/s,25,36,264,A pair of gloves crafted by the Ancient Master Craftsman,0.4
+Ancient Leather Armor,BP_ZB_YiFu_YiJi_1_c,slot,Special,1.5/s,25,36,264,Costume crafted by the Ancient Master Craftsman,0.2
+Ancient Leather Boots,BP_ZB_XieZi_YiJi_1_c,slot,Special,1.5/s,25,36,264,A pair of boots crafted by the Ancient Master Craftsman,0.6
+Ancient Leather Pants,BP_ZB_KuZi_YiJi_1_c,slot,Special,1.5/s,25,36,264,A pair of pants crafted by the Ancient Master Craftsman,0.2
+Ancient Necklace,BP_ZB_XiangLian_YiJi_1_c,slot,Special,1.5/s,25,36,264,A necklace crafted by the Ancient Master Craftsman,0.2
+Ancient Ring,BP_ZB_JieZhi_YiJi_1_c,slot,Special,1.5/s,25,36,264,A ring crafted by the Ancient Master Craftsman,0.2
+Archaic Armor,BP_ZB_YiFu_YiJi_2_c,slot,Special,1.5/s,25,36,264,Costume left over by the archaic civilization,0.2
+Archaic Boots,BP_ZB_XieZi_YiJi_2_c,slot,Special,1.5/s,25,36,264,Boots left over by the archaic civilization,0.6
+Archaic Gloves,BP_ZB_ShouTao_YiJi_2_c,slot,Special,1.5/s,25,36,264,Gloves left over by the archaic civilization,0.4
+Archaic Legguard,BP_ZB_KuZi_YiJi_2_c,slot,Special,1.5/s,25,36,264,Pants left over by the archaic civilization,0.2
+Archaic Necklace,BP_ZB_XiangLian_YiJi_2_c,slot,Special,1.5/s,25,36,264,A necklace left over by the archaic civilization,0.2
+Archaic Ring,BP_ZB_JieZhi_YiJi_2_c,slot,Special,1.5/s,25,36,264,A ring left over by the archaic civilization,0.2
+Mysterious Armor,BP_ZB_YiFu_YiJi_3_c,slot,Special,1.5/s,25,36,264,A costume left by a mysterious civilization. Set effects: Attack Speed +20%, Max HP +10%, RESIL-Down DEF +10%,0.2
+Mysterious Boots,BP_ZB_XieZi_YiJi_3_c,slot,Special,1.5/s,25,36,264,Boots left by a mysterious civilization. Set effects: Attack Speed +20%, Max HP +10%, RESIL-Down DEF +10%,0.6
+Mysterious Gloves,BP_ZB_ShouTao_YiJi_3_c,slot,Special,1.5/s,25,36,264,Gloves left by a mysterious civilization. Set effects: Attack Speed +20%, Max HP +10%, RESIL-Down DEF +10%,0.4
+Mysterious Legguard,BP_ZB_KuZi_YiJi_3_c,slot,Special,1.5/s,25,36,264,Pants left by a mysterious civilization. Set effects: Attack Speed +20%, Max HP +10%, RESIL-Down DEF +10%,0.2
+Mysterious Necklace,BP_ZB_XiangLian_YiJi_3_c,slot,Special,1.5/s,25,36,264,A necklace left by a mysterious civilization. Set effects: Attack Speed +20%, Max HP +10%, RESIL-Down DEF +10%,0.2
+Mysterious Ring,BP_ZB_JieZhi_YiJi_3_c,slot,Special,1.5/s,25,36,264,A ring left by a mysterious civilization. Set effects: Attack Speed +20%, Max HP +10%, RESIL-Down DEF +10%,0.2

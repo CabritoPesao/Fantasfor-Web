@@ -1,0 +1,185 @@
+name,id,slot,tags,atq,def,pv,crit,description,weight
+[TEST]Ancient Gloves,BP_ZB_ShouTao_YiJi_1_c,gloves,Special,12,48,320,18,A pair of gloves crafted by the Ancient Master Craftsman,0.4
+[TEST]Ancient Leather Armor,BP_ZB_YiFu_YiJi_1_c,costume,Special,18,35,290,22,Costume crafted by the Ancient Master Craftsman,0.2
+[TEST]Ancient Leather Boots,BP_ZB_XieZi_YiJi_1_c,shoes,Special,15,42,310,20,A pair of boots crafted by the Ancient Master Craftsman,0.6
+[TEST]Ancient Leather Pants,BP_ZB_KuZi_YiJi_1_c,pants,Special,14,38,305,19,A pair of pants crafted by the Ancient Master Craftsman,0.2
+[TEST]Ancient Necklace,BP_ZB_XiangLian_YiJi_1_c,necklare,Special,16,40,315,21,A necklace crafted by the Ancient Master Craftsman,0.2
+[TEST]Ancient Ring,BP_ZB_JieZhi_YiJi_1_c,ring,Special,13,37,300,17,A ring crafted by the Ancient Master Craftsman,0.2
+[TEST]Archaic Armor,BP_ZB_YiFu_YiJi_2_c,costume,Special,19,44,325,23,Costume left over by the archaic civilization,0.2
+[TEST]Archaic Boots,BP_ZB_XieZi_YiJi_2_c,shoes,Special,14,36,298,16,Boots left over by the archaic civilization,0.6
+[TEST]Archaic Gloves,BP_ZB_ShouTao_YiJi_2_c,gloves,Special,17,41,312,20,Gloves left over by the archaic civilization,0.4
+[TEST]Archaic Legguard,BP_ZB_KuZi_YiJi_2_c,pants,Special,15,39,308,19,Pants left over by the archaic civilization,0.2
+[TEST]Archaic Necklace,BP_ZB_XiangLian_YiJi_2_c,necklare,Special,16,43,320,21,A necklace left over by the archaic civilization,0.2
+[TEST]Archaic Ring,BP_ZB_JieZhi_YiJi_2_c,ring,Special,13,38,310,18,A ring left over by the archaic civilization,0.2
+[TEST]Mysterious Armor,BP_ZB_YiFu_YiJi_3_c,costume,Special,20,45,330,24,A costume left by a mysterious civilization. Set effects: Attack Speed +20%, Max HP +10%
+[TEST]Mysterious Boots,BP_ZB_XieZi_YiJi_3_c,shoes,Special,15,42,315,19,Boots left by a mysterious civilization. Set effects: Attack Speed +20%, Max HP +10%
+[TEST]Mysterious Gloves,BP_ZB_ShouTao_YiJi_3_c,gloves,Special,18,44,325,22,Gloves left by a mysterious civilization. Set effects: Attack Speed +20%, Max HP +10%
+[TEST]Mysterious Legguard,BP_ZB_KuZi_YiJi_3_c,pants,Special,16,40,312,20,Pants left by a mysterious civilization. Set effects: Attack Speed +20%, Max HP +10%
+[TEST]Mysterious Necklace,BP_ZB_XiangLian_YiJi_3_c,necklare,Special,17,43,318,21,A necklace left by a mysterious civilization. Set effects: Attack Speed +20%, Max HP +10%
+[TEST]Mysterious Ring,BP_ZB_JieZhi_YiJi_3_c,ring,Special,14,39,305,18,A ring left by a mysterious civilization. Set effects: Attack Speed +20%, Max HP +10%
+[Claw] Advanced Combat Costume,BP_ZB_YeMan_ZD_31_c,costume,Tribe_Claw,1.5/s,25,36,264,Appearance of advanced costume worn by the Claw Tribe in battles,0.6
+[Claw] Advanced Combat Gloves,BP_ZB_YeMan_ZD_32_c,gloves,Tribe_Claw,1.5/s,25,36,264,Appearance of advanced costume worn by the Claw Tribe in battles,0.3
+[Claw] Advanced Combat Pants,BP_ZB_YeMan_ZD_33_c,pants,Tribe_Claw,1.5/s,25,36,264,Appearance of advanced costume worn by the Claw Tribe in battles,0.6
+[Claw] Advanced Combat Shoes,BP_ZB_YeMan_ZD_34_c,shoes,Tribe_Claw,1.5/s,25,36,264,Appearance of advanced costume worn by the Claw Tribe in battles,0.4
+[Claw] Basic Combat Costume,BP_ZB_YeMan_ZD_11_c,costume,Tribe_Claw,1.5/s,25,36,264,Appearance of basic costume worn by the Claw Tribe in battles,0.2
+[Claw] Basic Combat Gloves,BP_ZB_YeMan_ZD_12_c,gloves,Tribe_Claw,1.5/s,25,36,264,Appearance of basic costume worn by the Claw Tribe in battles,0.1
+[Claw] Basic Combat Pants,BP_ZB_YeMan_ZD_13_c,pants,Tribe_Claw,1.5/s,25,36,264,Appearance of basic costume worn by the Claw Tribe in battles,0.2
+[Claw] Basic Combat Shoes,BP_ZB_YeMan_ZD_14_c,shoes,Tribe_Claw,1.5/s,25,36,264,Appearance of basic costume worn by the Claw Tribe in battles,0.15
+[Claw] Everyday Costume,BP_ZB_YeMan_SH_1_c,costume,Tribe_Claw,1.5/s,25,36,264,Appearance of basic costume worn by the Claw Tribe every day,0.2
+[Claw] Everyday Gloves,BP_ZB_YeMan_SH_2_c,gloves,Tribe_Claw,1.5/s,25,36,264,Appearance of basic costume worn by the Claw Tribe every day,0.1
+[Claw] Everyday Pants,BP_ZB_YeMan_SH_3_c,pants,Tribe_Claw,1.5/s,25,36,264,Appearance of basic costume worn by the Claw Tribe every day,0.2
+[Claw] Everyday Shoes,BP_ZB_YeMan_SH_4_c,shoes,Tribe_Claw,1.5/s,25,36,264,Appearance of basic costume worn by the Claw Tribe every day,0.15
+[Claw] Medium Combat Costume,BP_ZB_YeMan_ZD_21_c,costume,Tribe_Claw,1.5/s,25,36,264,Appearance of medium costume worn by the Claw Tribe in battles,0.4
+[Claw] Medium Combat Gloves,BP_ZB_YeMan_ZD_22_c,gloves,Tribe_Claw,1.5/s,25,36,264,Appearance of medium costume worn by the Claw Tribe in battles,0.2
+[Claw] Medium Combat Pants,BP_ZB_YeMan_ZD_23_c,pants,Tribe_Claw,1.5/s,25,36,264,Appearance of medium costume worn by the Claw Tribe in battles,0.4
+[Claw] Medium Combat Shoes,BP_ZB_YeMan_ZD_24_c,shoes,Tribe_Claw,1.5/s,25,36,264,Appearance of medium costume worn by the Claw Tribe in battles,0.3
+[Claw] Winter Gloves,BP_ZB_YeMan_YH_2_c,gloves,Tribe_Claw,1.5/s,25,36,264,Appearance of costume worn by the Claw Tribe to resist the cold,0.3
+[Claw] Winter Knitwear,BP_ZB_YeMan_YH_1_c,custome,Tribe_Claw,1.5/s,25,36,264,Appearance of costume worn by the Claw Tribe to resist the cold,0.6
+[Claw] Winter Pants,BP_ZB_YeMan_YH_3_c,pants,Tribe_Claw,1.5/s,25,36,264,Appearance of costume worn by the Claw Tribe to resist the cold,0.6
+[Claw] Winter Shoes,BP_ZB_YeMan_YH_4_c,shoes,Tribe_Claw,1.5/s,25,36,264,Appearance of costume worn by the Claw Tribe to resist the cold,0.4
+[Fang] Advanced Combat Costume,BP_ZB_ShenMi_ZD_31_c,costume,Tribe_Fang,1.5/s,25,36,264,Appearance of advanced costume worn by the Fang Tribe in battles,0.6
+[Fang] Advanced Combat Gloves,BP_ZB_ShenMi_ZD_32_c,gloves,Tribe_Fang,1.5/s,25,36,264,Appearance of advanced costume worn by the Fang Tribe in battles,0.3
+[Fang] Advanced Combat Pants,BP_ZB_ShenMi_ZD_33_c,pants,Tribe_Fang,1.5/s,25,36,264,Appearance of advanced costume worn by the Fang Tribe in battles,0.6
+[Fang] Advanced Combat Shoes,BP_ZB_ShenMi_ZD_34_c,shoes,Tribe_Fang,1.5/s,25,36,264,Appearance of advanced costume worn by the Fang Tribe in battles,0.4
+[Fang] Basic Combat Costume,BP_ZB_ShenMi_ZD_11_c,costume,Tribe_Fang,1.5/s,25,36,264,Appearance of basic costume worn by the Fang Tribe in battles,0.2
+[Fang] Basic Combat Gloves,BP_ZB_ShenMi_ZD_12_c,gloves,Tribe_Fang,1.5/s,25,36,264,Appearance of basic costume worn by the Fang Tribe in battles,0.1
+[Fang] Basic Combat Pants,BP_ZB_ShenMi_ZD_13_c,pants,Tribe_Fang,1.5/s,25,36,264,Appearance of basic costume worn by the Fang Tribe in battles,0.2
+[Fang] Basic Combat Shoes,BP_ZB_ShenMi_ZD_14_c,shoes,Tribe_Fang,1.5/s,25,36,264,Appearance of basic costume worn by the Fang Tribe in battles,0.15
+[Fang] Everyday Costume,BP_ZB_ShenMi_SH_1_c,costume,Tribe_Fang,1.5/s,25,36,264,Appearance of basic costume worn by the Fang Tribe every day,0.2
+[Fang] Everyday Gloves,BP_ZB_ShenMi_SH_2_c,gloves,Tribe_Fang,1.5/s,25,36,264,Appearance of basic costume worn by the Fang Tribe every day,0.1
+[Fang] Everyday Pants,BP_ZB_ShenMi_SH_3_c,pants,Tribe_Fang,1.5/s,25,36,264,Appearance of basic costume worn by the Fang Tribe every day,0.2
+[Fang] Everyday Shoes,BP_ZB_ShenMi_SH_4_c,shoes,Tribe_Fang,1.5/s,25,36,264,Appearance of basic costume worn by the Fang Tribe every day,0.15
+[Fang] Medium Combat Costume,BP_ZB_ShenMi_ZD_21_c,costume,Tribe_Fang,1.5/s,25,36,264,Appearance of medium costume worn by the Fang Tribe in battles,0.4
+[Fang] Medium Combat Gloves,BP_ZB_ShenMi_ZD_22_c,gloves,Tribe_Fang,1.5/s,25,36,264,Appearance of medium costume worn by the Fang Tribe in battles,0.2
+[Fang] Medium Combat Pants,BP_ZB_ShenMi_ZD_23_c,pants,Tribe_Fang,1.5/s,25,36,264,Appearance of medium costume worn by the Fang Tribe in battles,0.4
+[Fang] Medium Combat Shoes,BP_ZB_ShenMi_ZD_24_c,shoes,Tribe_Fang,1.5/s,25,36,264,Appearance of medium costume worn by the Fang Tribe in battles,0.3
+[Fang] Winter Gloves,BP_ZB_ShenMi_YH_2_c,gloves,Tribe_Fang,1.5/s,25,36,264,Appearance of costume worn by the Fang Tribe to resist the cold,0.3
+[Fang] Winter Knitwear,BP_ZB_ShenMi_YH_1_c,custome,Tribe_Fang,1.5/s,25,36,264,Appearance of costume worn by the Fang Tribe to resist the cold,0.6
+[Fang] Winter Pants,BP_ZB_ShenMi_YH_3_c,pants,Tribe_Fang,1.5/s,25,36,264,Appearance of costume worn by the Fang Tribe to resist the cold,0.6
+[Fang] Winter Shoes,BP_ZB_ShenMi_YH_4_c,shoes,Tribe_Fang,1.5/s,25,36,264,Appearance of costume worn by the Fang Tribe to resist the cold,0.4
+[Flint] Advanced Combat Costume,BP_ZB_ZhiHui_ZD_31_c,costume,Tribe_Flint,1.5/s,25,36,264,Appearance of advanced costume worn by the Flint Tribe in battles,0.6
+[Flint] Advanced Combat Gloves,BP_ZB_ZhiHui_ZD_32_c,gloves,Tribe_Flint,1.5/s,25,36,264,Appearance of advanced costume worn by the Flint Tribe in battles,0.3
+[Flint] Advanced Combat Pants,BP_ZB_ZhiHui_ZD_33_c,pants,Tribe_Flint,1.5/s,25,36,264,Appearance of advanced costume worn by the Flint Tribe in battles,0.6
+[Flint] Advanced Combat Shoes,BP_ZB_ZhiHui_ZD_34_c,shoes,Tribe_Flint,1.5/s,25,36,264,Appearance of advanced costume worn by the Flint Tribe in battles,0.4
+[Flint] Basic Combat Costume,BP_ZB_ZhiHui_ZD_11_c,costume,Tribe_Flint,1.5/s,25,36,264,Appearance of basic costume worn by the Flint Tribe in battles,0.2
+[Flint] Basic Combat Gloves,BP_ZB_ZhiHui_ZD_12_c,gloves,Tribe_Flint,1.5/s,25,36,264,Appearance of basic costume worn by the Flint Tribe in battles,0.1
+[Flint] Basic Combat Pants,BP_ZB_ZhiHui_ZD_13_c,pants,Tribe_Flint,1.5/s,25,36,264,Appearance of basic costume worn by the Flint Tribe in battles,0.2
+[Flint] Basic Combat Shoes,BP_ZB_ZhiHui_ZD_14_c,shoes,Tribe_Flint,1.5/s,25,36,264,Appearance of basic costume worn by the Flint Tribe in battles,0.15
+[Flint] Everyday Costume,BP_ZB_ZhiHui_SH_1_c,costume,Tribe_Flint,1.5/s,25,36,264,Appearance of basic costume worn by the Flint Tribe every day,0.2
+[Flint] Everyday Gloves,BP_ZB_ZhiHui_SH_2_c,gloves,Tribe_Flint,1.5/s,25,36,264,Appearance of basic costume worn by the Flint Tribe every day,0.1
+[Flint] Everyday Pants,BP_ZB_ZhiHui_SH_3_c,pants,Tribe_Flint,1.5/s,25,36,264,Appearance of basic costume worn by the Flint Tribe every day,0.2
+[Flint] Everyday Shoes,BP_ZB_ZhiHui_SH_4_c,shoes,Tribe_Flint,1.5/s,25,36,264,Appearance of basic costume worn by the Flint Tribe every day,0.15
+[Flint] Medium Combat Costume,BP_ZB_ZhiHui_ZD_21_c,costume,Tribe_Flint,1.5/s,25,36,264,Appearance of medium costume worn by the Flint Tribe in battles,0.4
+[Flint] Medium Combat Gloves,BP_ZB_ZhiHui_ZD_22_c,gloves,Tribe_Flint,1.5/s,25,36,264,Appearance of medium costume worn by the Flint Tribe in battles,0.2
+[Flint] Medium Combat Pants,BP_ZB_ZhiHui_ZD_23_c,pants,Tribe_Flint,1.5/s,25,36,264,Appearance of medium costume worn by the Flint Tribe in battles,0.4
+[Flint] Medium Combat Shoes,BP_ZB_ZhiHui_ZD_24_c,shoes,Tribe_Flint,1.5/s,25,36,264,Appearance of medium costume worn by the Flint Tribe in battles,0.3
+[Flint] Winter Gloves,BP_ZB_ZhiHui_YH_2_c,gloves,Tribe_Flint,1.5/s,25,36,264,Appearance of advanced costume worn by the Flint Tribe to resist the cold,0.3
+[Flint] Winter Knitwear,BP_ZB_ZhiHui_YH_1_c,custome,Tribe_Flint,1.5/s,25,36,264,Appearance of advanced costume worn by the Flint Tribe to resist the cold,0.6
+[Flint] Winter Pants,BP_ZB_ZhiHui_YH_3_c,pants,Tribe_Flint,1.5/s,25,36,264,Appearance of advanced costume worn by the Flint Tribe to resist the cold,0.6
+[Flint] Winter Shoes,BP_ZB_ZhiHui_YH_4_c,shoes,Tribe_Flint,1.5/s,25,36,264,Appearance of advanced costume worn by the Flint Tribe to resist the cold,0.4
+Ancient Gloves,BP_ZB_ShouTao_YiJi_1_c,gloves,Special,1.5/s,25,36,264,A pair of gloves crafted by the Ancient Master Craftsman,0.4
+Ancient Leather Armor,BP_ZB_YiFu_YiJi_1_c,costume,Special,1.5/s,25,36,264,Costume crafted by the Ancient Master Craftsman,0.2
+Ancient Leather Boots,BP_ZB_XieZi_YiJi_1_c,shoes,Special,1.5/s,25,36,264,A pair of boots crafted by the Ancient Master Craftsman,0.6
+Ancient Leather Pants,BP_ZB_KuZi_YiJi_1_c,pants,Special,1.5/s,25,36,264,A pair of pants crafted by the Ancient Master Craftsman,0.2
+Ancient Necklace,BP_ZB_XiangLian_YiJi_1_c,necklare,Special,1.5/s,25,36,264,A necklace crafted by the Ancient Master Craftsman,0.2
+Ancient Ring,BP_ZB_JieZhi_YiJi_1_c,ring,Special,1.5/s,25,36,264,A ring crafted by the Ancient Master Craftsman,0.2
+Archaic Armor,BP_ZB_YiFu_YiJi_2_c,costume,Special,1.5/s,25,36,264,Costume left over by the archaic civilization,0.2
+Archaic Boots,BP_ZB_XieZi_YiJi_2_c,shoes,Special,1.5/s,25,36,264,Boots left over by the archaic civilization,0.6
+Archaic Gloves,BP_ZB_ShouTao_YiJi_2_c,gloves,Special,1.5/s,25,36,264,Gloves left over by the archaic civilization,0.4
+Archaic Legguard,BP_ZB_KuZi_YiJi_2_c,pants,Special,1.5/s,25,36,264,Pants left over by the archaic civilization,0.2
+Archaic Necklace,BP_ZB_XiangLian_YiJi_2_c,necklare,Special,1.5/s,25,36,264,A necklace left over by the archaic civilization,0.2
+Archaic Ring,BP_ZB_JieZhi_YiJi_2_c,ring,Special,1.5/s,25,36,264,A ring left over by the archaic civilization,0.2
+Mysterious Armor,BP_ZB_YiFu_YiJi_3_c,costume,Special,1.5/s,25,36,264,A costume left by a mysterious civilization. Set effects: Attack Speed +20%, Max HP +10%
+Mysterious Boots,BP_ZB_XieZi_YiJi_3_c,shoes,Special,1.5/s,25,36,264,Boots left by a mysterious civilization. Set effects: Attack Speed +20%, Max HP +10%
+Mysterious Gloves,BP_ZB_ShouTao_YiJi_3_c,gloves,Special,1.5/s,25,36,264,Gloves left by a mysterious civilization. Set effects: Attack Speed +20%, Max HP +10%
+Mysterious Legguard,BP_ZB_KuZi_YiJi_3_c,pants,Special,1.5/s,25,36,264,Pants left by a mysterious civilization. Set effects: Attack Speed +20%, Max HP +10%
+Mysterious Necklace,BP_ZB_XiangLian_YiJi_3_c,necklare,Special,1.5/s,25,36,264,A necklace left by a mysterious civilization. Set effects: Attack Speed +20%, Max HP +10%
+Mysterious Ring,BP_ZB_JieZhi_YiJi_3_c,ring,Special,1.5/s,25,36,264,A ring left by a mysterious civilization. Set effects: Attack Speed +20%, Max HP +10%
+Advanced Frog Bone Necklace,BP_ZB_XiangLian_Boss_2_2_c,necklare,Boss,1.5/s,25,36,264,A necklace decorated with Fogfrog bones, capable of deterring enemies (Stats get enhanced further based on inherited gear). Set effects: Poison-proof +50%
+Advanced Frog Bone Ring,BP_ZB_JieZhi_Boss_2_2_c,ring,Boss,1.5/s,25,36,264,A ring decorated with Fogfrog bones, capable of deterring enemies (Stats get enhanced further based on inherited gear). Set effects: Poison-proof +50%
+Advanced Frog Claw Gloves,BP_ZB_ShouTao_Boss_2_2_c,gloves,Boss,1.5/s,25,36,264,Gloves attached with Fogfrog claws (Stats get enhanced further based on inherited gear). Set effects: Poison-proof +50%, Body Poison -3 per minute
+Advanced Frog Leather Armor,BP_ZB_YiFu_Boss_2_2_c,costume,Boss,1.5/s,25,36,264,Costume wrapped in Fogfrog skin (Stats get enhanced further based on inherited gear). Set effects: Poison-proof +50%, Body Poison -3 per minute
+Advanced Frog Leather Boots,BP_ZB_XieZi_Boss_2_2_c,shoes,Boss,1.5/s,25,36,264,Boots wrapped in Fogfrog skin (Stats get enhanced further based on inherited gear). Set effects: Poison-proof +50%, Body Poison -3 per minute
+Advanced Frog Leather Pants,BP_ZB_KuZi_Boss_2_2_c,pants,Boss,1.5/s,25,36,264,Pants wrapped in Fogfrog skin (Stats get enhanced further based on inherited gear). Set effects: Poison-proof +50%, Body Poison -3 per minute
+Frog Bone Necklace,BP_ZB_XiangLian_Boss_2_c,necklare,Boss,1.5/s,25,36,264,A necklace decorated with Fogfrog bones, capable of deterring enemies (Stats get enhanced further based on inherited gear). Set effects: Poison-proof +50%
+Frog Bone Ring,BP_ZB_JieZhi_Boss_2_c,ring,Boss,1.5/s,25,36,264,A ring decorated with Fogfrog bones, capable of deterring enemies (Stats get enhanced further based on inherited gear). Set effects: Poison-proof +50%
+Frog Claw Gloves,BP_ZB_ShouTao_Boss_2_c,gloves,Boss,1.5/s,25,36,264,Gloves attached with Fogfrog claws (Stats get enhanced further based on inherited gear). Set effects: Poison-proof +50%, Body Poison -3 per minute
+Frog Leather Armor,BP_ZB_YiFu_Boss_2_c,costume,Boss,1.5/s,25,36,264,Costume wrapped in Fogfrog skin (Stats get enhanced further based on inherited gear). Set effects: Poison-proof +50%, Body Poison -3 per minute
+Frog Leather Boots,BP_ZB_XieZi_Boss_2_c,shoes,Boss,1.5/s,25,36,264,Boots wrapped in Fogfrog skin (Stats get enhanced further based on inherited gear). Set effects: Poison-proof +50%, Body Poison -3 per minute
+Frog Leather Pants,BP_ZB_KuZi_Boss_2_c,pants,Boss,1.5/s,25,36,264,Pants wrapped in Fogfrog skin (Stats get enhanced further based on inherited gear). Set effects: Poison-proof +50%, Body Poison -3 per minute
+Advanced Giant Ape Gloves,BP_ZB_ShouTao_Boss_4_2_c,gloves,Boss,1.5/s,25,36,264,Gloves attached with Vajra Ape's claw (Stats get enhanced further when inheriting gears). Set effects: Max Stamina +50, HP +0.5% per second
+Advanced Giant Ape Leather Armor,BP_ZB_YiFu_Boss_4_2_c,costume,Boss,1.5/s,25,36,264,Costume wrapped in Vajra Ape Hide (Stats get enhanced further based on inherited gear). Set effects: Max Stamina +50, HP +0.5% every second
+Advanced Giant Ape Leather Boots,BP_ZB_XieZi_Boss_4_2_c,shoes,Boss,1.5/s,25,36,264,Boots wrapped in Vajra Ape Hide (Stats get enhanced further based on inherited gear). Set effects: Max Stamina +50, HP +0.5% every second
+Advanced Giant Ape Leather Pants,BP_ZB_KuZi_Boss_4_2_c,pants,Boss,1.5/s,25,36,264,Pants wrapped in Vajra Ape Hide (Stats get enhanced further based on inherited gear). Set effects: Max Stamina +50, HP +0.5% every second
+Advanced Giant Ape Necklace,BP_ZB_XiangLian_Boss_4_2_c,necklare,Boss,1.5/s,25,36,264,A necklace decorated with a Vajra Ape's fang, capable of deterring enemies (Stats get enhanced further when inheriting gears). Set effects: Max Stamina +50
+Advanced Giant Ape Ring,BP_ZB_JieZhi_Boss_4_2_c,ring,Boss,1.5/s,25,36,264,A ring decorated with a Vajra Ape's fang, capable of deterring enemies (Stats get enhanced further when inheriting gears). Set effects: Max Stamina +50
+Giant Ape Gloves,BP_ZB_ShouTao_Boss_4_c,gloves,Boss,1.5/s,25,36,264,Gloves attached with Vajra Ape's claw (Stats get enhanced further when inheriting gears). Set effects: Max Stamina +50, HP +0.5% per second
+Giant Ape Leather Armor,BP_ZB_YiFu_Boss_4_c,costume,Boss,1.5/s,25,36,264,Costume wrapped in Vajra Ape Hide (Stats get enhanced further based on inherited gear). Set effects: Max Stamina +50, HP +0.5% every second
+Giant Ape Leather Boots,BP_ZB_XieZi_Boss_4_c,shoes,Boss,1.5/s,25,36,264,Boots wrapped in Vajra Ape Hide (Stats get enhanced further based on inherited gear). Set effects: Max Stamina +50, HP +0.5% every second
+Giant Ape Leather Pants,BP_ZB_KuZi_Boss_4_c,pants,Boss,1.5/s,25,36,264,Pants wrapped in Vajra Ape Hide (Stats get enhanced further based on inherited gear). Set effects: Max Stamina +50, HP +0.5% every second
+Giant Ape Necklace,BP_ZB_XiangLian_Boss_4_c,necklare,Boss,1.5/s,25,36,264,A necklace decorated with a Vajra Ape's fang, capable of deterring enemies (Stats get enhanced further when inheriting gears). Set effects: Max Stamina +50
+Giant Ape Ring,BP_ZB_JieZhi_Boss_4_c,ring,Boss,1.5/s,25,36,264,A ring decorated with a Vajra Ape's fang, capable of deterring enemies (Stats get enhanced further when inheriting gears). Set effects: Max Stamina +50
+Advanced Mammoth Gloves,BP_ZB_ShouTao_Boss_5_2_c,gloves,Boss,1.5/s,25,36,264,Gloves attached with Mammoth hide (Stats get enhanced further based on inherited gear). Set effects: Crit +15%, Crit Resist +15%
+Advanced Mammoth Leather Armor,BP_ZB_YiFu_Boss_5_2_c,costume,Boss,1.5/s,25,36,264,Costume wrapped in Mammoth hide (Stats get enhanced further based on inherited gear). Set effects: Crit +15%, Crit Resist +15%
+Advanced Mammoth Leather Boots,BP_ZB_XieZi_Boss_5_2_c,shoes,Boss,1.5/s,25,36,264,Boots wrapped in Mammoth hide (Stats get enhanced further based on inherited gear). Set effects: Crit +15%, Crit Resist +15%
+Advanced Mammoth Leather Pants,BP_ZB_KuZi_Boss_5_2_c,pants,Boss,1.5/s,25,36,264,Pants wrapped in Mammoth hide (Stats get enhanced further based on inherited gear). Set effects: Crit +15%, Crit Resist +15%
+Advanced Mammoth Necklace,BP_ZB_XiangLian_Boss_5_2_c,necklare,Boss,1.5/s,25,36,264,A necklace decorated with a Mammoth ivory, capable of deterring enemies (Stats get enhanced further based on inherited gear). Set effects: Crit +15%
+Advanced Mammoth Ring,BP_ZB_JieZhi_Boss_5_2_c,ring,Boss,1.5/s,25,36,264,A ring decorated with Mammoth bones, capable of deterring enemies (Stats get enhanced further based on inherited gears). Set effects: Crit +15%
+Mammoth Gloves,BP_ZB_ShouTao_Boss_5_c,gloves,Boss,1.5/s,25,36,264,Gloves attached with Mammoth hide (Stats get enhanced further based on inherited gear). Set effects: Crit +15%, Crit Resist +15%
+Mammoth Leather Armor,BP_ZB_YiFu_Boss_5_c,costume,Boss,1.5/s,25,36,264,Costume wrapped in Mammoth hide (Stats get enhanced further based on inherited gear). Set effects: Crit +15%, Crit Resist +15%
+Mammoth Leather Boots,BP_ZB_XieZi_Boss_5_c,shoes,Boss,1.5/s,25,36,264,Boots wrapped in Mammoth hide (Stats get enhanced further based on inherited gear). Set effects: Crit +15%, Crit Resist +15%
+Mammoth Leather Pants,BP_ZB_KuZi_Boss_5_c,pants,Boss,1.5/s,25,36,264,Pants wrapped in Mammoth hide (Stats get enhanced further based on inherited gear). Set effects: Crit +15%, Crit Resist +15%
+Mammoth Necklace,BP_ZB_XiangLian_Boss_5_c,necklare,Boss,1.5/s,25,36,264,A necklace decorated with a Mammoth ivory, capable of deterring enemies (Stats get enhanced further based on inherited gear). Set effects: Crit +15%
+Mammoth Ring,BP_ZB_JieZhi_Boss_5_c,ring,Boss,1.5/s,25,36,264,A ring decorated with Mammoth bones, capable of deterring enemies (Stats get enhanced further based on inherited gears). Set effects: Crit +15%
+Advanced Saber-toothed Predator Gloves,BP_ZB_ShouTao_JianChiHu_2_c,gloves,Boss,1.5/s,25,36,264,Gloves attached with Saber-toothed Predator's claw (Stats get enhanced further when inheriting gears). Set effects: Attack Speed +5%, Bleed Trigger Rate +50%
+Advanced Saber-toothed Predator Leather Armor,BP_ZB_YiFu_JianChiHu_2_c,costume,Boss,1.5/s,25,36,264,Costume wrapped in Saber-toothed Predator Hide (Stats get enhanced further based on inherited gear). Set effects: Attack Speed +5%, Bleed Trigger Rate +50%
+Advanced Saber-toothed Predator Leather Boots,BP_ZB_XieZi_JianChiHu_2_c,shoes,Boss,1.5/s,25,36,264,Boots wrapped in Saber-toothed Predator Hide (Stats get enhanced further based on inherited gear). Set effects: Attack Speed +5%, Bleed Trigger Rate +50%
+Advanced Saber-toothed Predator Leather Pants,BP_ZB_KuZi_JianChiHu_2_c,pants,Boss,1.5/s,25,36,264,Pants wrapped in Saber-toothed Predator Hide (Stats get enhanced further based on inherited gear). Set effects: Attack Speed +5%, Bleed Trigger Rate +50%
+Advanced Saber-toothed Predator Necklace,BP_ZB_XiangLian_JianChiHu_2_c,necklare,Boss,1.5/s,25,36,264,A necklace decorated with a Saber-toothed Predator's fang, capable of deterring enemies (Stats get enhanced further when inheriting gears). Set effects: Attack Speed +5%
+Advanced Saber-toothed Predator Ring,BP_ZB_JieZhi_JianChiHu_2_c,ring,Boss,1.5/s,25,36,264,A ring decorated with a Saber-toothed Predator's fang, capable of deterring enemies (Stats get enhanced further when inheriting gears). Set effects: Attack Speed +5%
+Saber-toothed Predator Gloves,BP_ZB_ShouTao_JianChiHu_c,gloves,Boss,1.5/s,25,36,264,Gloves attached with Saber-toothed Predator's claw (Stats get enhanced further when inheriting gears). Set effects: Attack Speed +5%, Bleed Trigger Rate +50%
+Saber-toothed Predator Leather Armor,BP_ZB_YiFu_JianChiHu_c,costume,Boss,1.5/s,25,36,264,Costume wrapped in Saber-toothed Predator Hide (Stats get enhanced further based on inherited gear). Set effects: Attack Speed +5%, Bleed Trigger Rate +50%
+Saber-toothed Predator Leather Boots,BP_ZB_XieZi_JianChiHu_c,shoes,Boss,1.5/s,25,36,264,Boots wrapped in Saber-toothed Predator Hide (Stats get enhanced further based on inherited gear). Set effects: Attack Speed +5%, Bleed Trigger Rate +50%
+Saber-toothed Predator Leather Pants,BP_ZB_KuZi_JianChiHu_c,pants,Boss,1.5/s,25,36,264,Pants wrapped in Saber-toothed Predator Hide (Stats get enhanced further based on inherited gear). Set effects: Attack Speed +5%, Bleed Trigger Rate +50%
+Saber-toothed Predator Necklace,BP_ZB_XiangLian_JianChiHu_c,necklare,Boss,1.5/s,25,36,264,A necklace decorated with a Saber-toothed Predator's fang, capable of deterring enemies (Stats get enhanced further when inheriting gears). Set effects: Attack Speed +5%
+Saber-toothed Predator Ring,BP_ZB_JieZhi_JianChiHu_c,ring,Boss,1.5/s,25,36,264,A ring decorated with a Saber-toothed Predator's fang, capable of deterring enemies (Stats get enhanced further when inheriting gears). Set effects: Attack Speed +5%
+Advanced Tempest Griffin Feather Armor,BP_ZB_YiFu_Boss_3_2_c,costume,Boss,1.5/s,25,36,264,Costume wrapped in Tempest Griffin Feathers (Stats get enhanced further based on inherited gear). Set effects: Radiation-proof +50%, Body Radiation -3 per minute
+Advanced Tempest Griffin Feather Boots,BP_ZB_XieZi_Boss_3_2_c,shoes,Boss,1.5/s,25,36,264,Boots wrapped in Tempest Griffin Feathers (Stats get enhanced further based on inherited gear). Set effects: Radiation-proof +50%, Body Radiation -3 per minute
+Advanced Tempest Griffin Feather Pants,BP_ZB_KuZi_Boss_3_2_c,pants,Boss,1.5/s,25,36,264,Pants wrapped in Tempest Griffin Feathers (Stats get enhanced further based on inherited gear). Set effects: Radiation-proof +50%, Body Radiation -3 per minute
+Advanced Tempest Griffin Gloves,BP_ZB_ShouTao_Boss_3_2_c,gloves,Boss,1.5/s,25,36,264,Gloves attached with Tempest Griffin claws (Stats get enhanced further when inheriting gears). Set effects: Radiation-proof +50%, Body Radiation -3 per minute
+Advanced Tempest Griffin Necklace,BP_ZB_XiangLian_Boss_3_2_c,necklare,Boss,1.5/s,25,36,264,A necklace decorated with Tempest Griffin bones, capable of deterring enemies (Stats get enhanced further when inheriting gears). Set effects: Radiation-proof +50%
+Advanced Tempest Griffin Ring,BP_ZB_JieZhi_Boss_3_2_c,ring,Boss,1.5/s,25,36,264,A ring decorated with Tempest Griffin bones, capable of deterring enemies (Stats get enhanced further based on inherited gear). Set effects: Radiation-proof +50%
+Tempest Griffin Feather Armor,BP_ZB_YiFu_Boss_3_c,costume,Boss,1.5/s,25,36,264,Costume wrapped in Tempest Griffin Feathers (Stats get enhanced further based on inherited gear). Set effects: Radiation-proof +50%, Body Radiation -3 per minute
+Tempest Griffin Feather Boots,BP_ZB_XieZi_Boss_3_c,shoes,Boss,1.5/s,25,36,264,Boots wrapped in Tempest Griffin Feathers (Stats get enhanced further based on inherited gear). Set effects: Radiation-proof +50%, Body Radiation -3 per minute
+Tempest Griffin Feather Pants,BP_ZB_KuZi_Boss_3_c,pants,Boss,1.5/s,25,36,264,Pants wrapped in Tempest Griffin Feathers (Stats get enhanced further based on inherited gear). Set effects: Radiation-proof +50%, Body Radiation -3 per minute
+Tempest Griffin Gloves,BP_ZB_ShouTao_Boss_3_c,gloves,Boss,1.5/s,25,36,264,Gloves attached with Tempest Griffin claws (Stats get enhanced further when inheriting gears). Set effects: Radiation-proof +50%, Body Radiation -3 per minute
+Tempest Griffin Necklace,BP_ZB_XiangLian_Boss_3_c,necklare,Boss,1.5/s,25,36,264,A necklace decorated with Tempest Griffin bones, capable of deterring enemies (Stats get enhanced further when inheriting gears). Set effects: Radiation-proof +50%
+Tempest Griffin Ring,BP_ZB_JieZhi_Boss_3_c,ring,Boss,1.5/s,25,36,264,A ring decorated with Tempest Griffin bones, capable of deterring enemies (Stats get enhanced further based on inherited gear). Set effects: Radiation-proof +50%
+Beast Bone Necklace,BP_ZB_XiangLian_2_c,necklare,Materials,1.5/s,25,36,264,An exquisite necklace made of beast bone,0.08
+Beast Bone Ring,BP_ZB_JieZhi_2_c,ring,Materials,1.5/s,25,36,264,An exquisite ring made of beast bone,0.08
+Beast Hide Costume,BP_ZB_YiFu_2_c,costume,Materials,1.5/s,25,36,264,Costume made of beast hide,0.4
+Beast Hide Gloves,BP_ZB_ShouTao_2_c,gloves,Materials,1.5/s,25,36,264,Gloves made of beast hide,0.15
+Beast Hide Pants,BP_ZB_KuZi_2_c,pants,Materials,1.5/s,25,36,264,Pants made of beast hide,0.4
+Beast Hide Shoes,BP_ZB_XieZi_2_c,shoes,Materials,1.5/s,25,36,264,Shoes made of beast hide,0.3
+Bronze Costume,BP_ZB_YiFu_3_c,costume,Materials,1.5/s,25,36,264,Costume made of bronze,0.6
+Bronze Gloves,BP_ZB_ShouTao_3_c,gloves,Materials,1.5/s,25,36,264,Gloves made of bronze,0.3
+Bronze Necklace,BP_ZB_XiangLian_3_c,necklare,Materials,1.5/s,25,36,264,A necklace made of bronze,0.15
+Bronze Pants,BP_ZB_KuZi_3_c,pants,Materials,1.5/s,25,36,264,Pants carrying bronze,0.6
+Bronze Ring,BP_ZB_JieZhi_3_c,ring,Materials,1.5/s,25,36,264,A ring made of bronze,0.15
+Bronze Shoes,BP_ZB_XieZi_3_c,shoes,Materials,1.5/s,25,36,264,Shoes made of bronze,0.45
+Iron Costume,BP_ZB_YiFu_4_c,costume,Materials,1.5/s,25,36,264,Costume made of iron,0.8
+Iron Gloves,BP_ZB_ShouTao_4_c,gloves,Materials,1.5/s,25,36,264,Gloves made of iron,0.4
+Iron Necklace,BP_ZB_XiangLian_4_c,necklare,Materials,1.5/s,25,36,264,A necklace made of iron,0.2
+Iron Pants,BP_ZB_KuZi_4_c,pants,Materials,1.5/s,25,36,264,Pants carrying iron,0.8
+Iron Ring,BP_ZB_JieZhi_4_c,ring,Materials,1.5/s,25,36,264,A ring made of iron,0.2
+Iron Shoes,BP_ZB_XieZi_4_c,shoes,Materials,1.5/s,25,36,264,Shoes made of iron,0.6
+Steel Costume,BP_ZB_YiFu_5_c,costume,Materials,1.5/s,25,36,264,A costume made of steel,1
+Steel Gloves,BP_ZB_ShouTao_5_c,gloves,Materials,1.5/s,25,36,264,A pair of gloves made of steel,0.5
+Steel Necklace,BP_ZB_XiangLian_5_c,necklare,Materials,1.5/s,25,36,264,A necklace made of steel,0.25
+Steel Pants,BP_ZB_KuZi_5_c,pants,Materials,1.5/s,25,36,264,Pants carrying steel,1
+Steel Ring,BP_ZB_JieZhi_5_c,ring,Materials,1.5/s,25,36,264,A ring made of steel,0.25
+Steel Shoes,BP_ZB_XieZi_5_c,shoes,Materials,1.5/s,25,36,264,A pair of shoes made of steel,0.75
+Linen Costume,BP_ZB_YiFu_1_c,costume,Materials,1.5/s,25,36,264,Costume made of linen,0.2
+Linen Gloves,BP_ZB_ShouTao_1_c,gloves,Materials,1.5/s,25,36,264,Gloves made of linen,0.1
+Linen Pants,BP_ZB_KuZi_1_c,pants,Materials,1.5/s,25,36,264,Pants made of linen,0.2
+Linen Shoes,BP_ZB_XieZi_1_c,shoes,Materials,1.5/s,25,36,264,Shoes made of linen,0.15

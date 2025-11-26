@@ -8,28 +8,98 @@
   </head>
   <body>
     <header class="topbar">
-      <h1 class="site-title">Soulmask Info by Fantasfor</h1>
-      <nav class="menu">
-        <a href="#" data-page="Home">Home</a>
-        <a href="#" data-page="plantation">plantation</a>
-        <a href="#" data-page="talents">talents</a>
-        <a href="#" data-page="armor-sets">armor sets</a>
-        <a href="#" data-page="maps">Maps</a>
-        <a href="#" data-page="masks">masks</a>
-        <a href="#" data-page="build-maker">Build Maker</a>
-        <a href="#" data-page="armor-sets-lacaios">armor sets lacaios</a>
-        <a href="#" data-page="console">Console</a>
-        <a href="#" data-page="status">Status</a>
-        <a href="#" data-page="leather">leather</a>
-        <a href="#" data-page="confort">Confort</a>
-        <a href="#" data-page="foods">foods</a>
-        <a href="#" data-page="stack">Stack</a>
-        <a href="#" data-page="boss">Boss</a>
-      </nav>
+      <img src="logo_redondo.png" id="logo-home" style="cursor:pointer;">
+
+      <nav class="menu-dropdown">
+  <ul>
+    <li><a href="#" data-page="home">Home</a></li>
+    
+    <!-- CATEGORIA: Informations -->
+    <li class="has-submenu">
+      <a href="#">Information ▼</a>
+      <ul class="submenu">
+        <li><a href="#" data-page="comfort">Comfort</a></li>
+        <li><a href="#" data-page="boss">Boss</a></li>
+        <li><a href="#" data-page="leather">Leather</a></li>
+        <li><a href="#" data-page="food">Food</a></li>
+        <li><a href="#" data-page="plantation">Plantation</a></li>
+        <li><a href="#" data-page="status">Status</a></li>
+        <li><a href="#" data-page="weapon-mastery">Weapon Mastery</a></li>
+      </ul>
+    </li>
+
+    <!-- CATEGORIA: Tools -->
+    <li class="has-submenu">
+      <a href="#">Tools ▼</a>
+      <ul class="submenu">
+        <li><a href="#" data-page="build-maker">Build Maker</a></li>
+        <li><a href="#" data-page="stack-calculator">Stack Calculator</a></li>
+      </ul>
+    </li>
+
+    <!-- CATEGORIA: Talents & Source -->
+    <li class="has-submenu">
+      <a href="#">Talents & Source ▼</a>
+      <ul class="submenu">
+        <li><a href="#" data-page="normal">Normal</a></li>
+        <li><a href="#" data-page="tribe">Tribe</a></li>
+        <li><a href="#" data-page="origin">Origin</a></li>
+        <li><a href="#" data-page="title">Title</a></li>
+      </ul>
+    </li>
+    <!-- CATEGORIA: Guides -->
+    <li class="has-submenu">
+      <a href="#">Guides ▼</a>
+      <ul class="submenu">
+        <li><a href="#" data-page="videos-channel">Videos from the channel</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    <form id="siteSearch" class="search-card" role="search" data-search-url="/search">
+  <div class="search-input-wrap">
+    <div class="search-icon" aria-hidden="true">
+      <svg width="18" height="18" viewBox="0 0 24 24">
+        <path d="M21 21l-4.35-4.35" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        <circle cx="11" cy="11" r="6" stroke="currentColor" stroke-width="2"/>
+      </svg>
+    </div>
+
+    <input id="q" class="search-input" type="search" name="q"
+           placeholder="Type what you want to search for..." autocomplete="off"/>
+
+    <button type="button" id="clear" class="clear-btn">✕</button>
+  </div>
+
+  <button type="submit" class="btn-search">
+    Search
+    <svg width="14" height="14" viewBox="0 0 24 24">
+      <path d="M5 12h14" stroke="currentColor" stroke-width="2"/>
+      <path d="M12 5l7 7-7 7" stroke="currentColor" stroke-width="2"/>
+    </svg>
+  </button>
+</form>
     </header>
-    <main class="content">
-      <iframe id="contentFrame" title="Contenido" src="pages/home/index.html"></iframe>
-    </main>
+<main id="content">
+        <iframe id="contentFrame" src="pages/home/index.html"></iframe>
+</main>
+    <div class="section-bottom">
+        <p>© 2025 Todos los derechos reservados.</p>
+        <p><strong>Web design:</strong> Iván Amarillo</p>
+        <p><strong>Email:</strong> <a href="mailto:ia7738986@gmail.com">ia7738986@gmail.com</a></p>
+        <p><strong>WhatsApp:</strong> <a href="https://wa.me/5491172073437" target="_blank">+54 9 11 7207-3437</a></p>
+        
+    </div>
+     <!-- Tu archivo app.js ya estaba aquí -->
     <script src="js/app.js"></script>
+    <!-- Agregas esta nueva línea para tu archivo rss.js -->
+    <script src="js/rss.js"></script>
+    <!-- Agregas esta nueva línea para tu archivo rssyt.js -->
+    <script src="js/rssyt.js"></script>
+    <!-- Agregas esta nueva línea para tu archivo search.js -->
+    <script src="js/search.js"></script>
+
+    <!-- Agregas esta nueva línea para tu archivo bg.js 
+    <script src="js/bg.js"></script>-->
   </body>
 </html>

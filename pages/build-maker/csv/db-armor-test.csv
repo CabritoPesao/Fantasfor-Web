@@ -1,0 +1,20 @@
+name,id,slot,tags,atq,def,pv,crit,description,weight
+[TEST]Ancient Gloves,BP_ZB_ShouTao_YiJi_1_c,gloves,Special,12,48,320,18,A pair of gloves crafted by the Ancient Master Craftsman,0.4
+[TEST]Ancient Leather Armor,BP_ZB_YiFu_YiJi_1_c,costume,Special,18,35,290,22,Costume crafted by the Ancient Master Craftsman,0.2
+[TEST]Ancient Leather Boots,BP_ZB_XieZi_YiJi_1_c,shoes,Special,15,42,310,20,A pair of boots crafted by the Ancient Master Craftsman,0.6
+[TEST]Ancient Leather Pants,BP_ZB_KuZi_YiJi_1_c,pants,Special,14,38,305,19,A pair of pants crafted by the Ancient Master Craftsman,0.2
+[TEST]Ancient Necklace,BP_ZB_XiangLian_YiJi_1_c,necklare,Special,16,40,315,21,A necklace crafted by the Ancient Master Craftsman,0.2
+[TEST]Ancient Ring,BP_ZB_JieZhi_YiJi_1_c,ring,Special,13,37,300,17,A ring crafted by the Ancient Master Craftsman,0.2
+[TEST]Archaic Armor,BP_ZB_YiFu_YiJi_2_c,costume,Special,19,44,325,23,Costume left over by the archaic civilization,0.2
+[TEST]Archaic Boots,BP_ZB_XieZi_YiJi_2_c,shoes,Special,14,36,298,16,Boots left over by the archaic civilization,0.6
+[TEST]Archaic Gloves,BP_ZB_ShouTao_YiJi_2_c,gloves,Special,17,41,312,20,Gloves left over by the archaic civilization,0.4
+[TEST]Archaic Legguard,BP_ZB_KuZi_YiJi_2_c,pants,Special,15,39,308,19,Pants left over by the archaic civilization,0.2
+[TEST]Archaic Necklace,BP_ZB_XiangLian_YiJi_2_c,necklare,Special,16,43,320,21,A necklace left over by the archaic civilization,0.2
+[TEST]Archaic Ring,BP_ZB_JieZhi_YiJi_2_c,ring,Special,13,38,310,18,A ring left over by the archaic civilization,0.2
+[TEST]Mysterious Armor,BP_ZB_YiFu_YiJi_3_c,costume,Special,20,45,330,24,A costume left by a mysterious civilization. Set effects: Attack Speed +20%, Max HP +10%
+[TEST]Mysterious Boots,BP_ZB_XieZi_YiJi_3_c,shoes,Special,15,42,315,19,Boots left by a mysterious civilization. Set effects: Attack Speed +20%, Max HP +10%
+[TEST]Mysterious Gloves,BP_ZB_ShouTao_YiJi_3_c,gloves,Special,18,44,325,22,Gloves left by a mysterious civilization. Set effects: Attack Speed +20%, Max HP +10%
+[TEST]Mysterious Legguard,BP_ZB_KuZi_YiJi_3_c,pants,Special,16,40,312,20,Pants left by a mysterious civilization. Set effects: Attack Speed +20%, Max HP +10%
+[TEST]Mysterious Necklace,BP_ZB_XiangLian_YiJi_3_c,necklare,Special,17,43,318,21,A necklace left by a mysterious civilization. Set effects: Attack Speed +20%, Max HP +10%
+[TEST]Mysterious Ring,BP_ZB_JieZhi_YiJi_3_c,ring,Special,14,39,305,18,A ring left by a mysterious civilization. Set effects: Attack Speed +20%, Max HP +10%
+
